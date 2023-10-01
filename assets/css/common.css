@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #576D81;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+}
+
+.wrapper {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: #0F2336;
+  text-decoration: none;
+}
+
+.top {
+  height: 100vh;
+  max-height: 100vh;
+  background-color: #f5f6f7;
+}
+.top .wrapper .header {
+  position: sticky;
+  padding-top: 27px;
+}
+.top .wrapper .header .header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top .wrapper .header .header-inner .menu .list {
+  display: flex;
+  align-items: center;
+  gap: 69px;
+}
+.top .wrapper .header .header-inner .menu .list .item .link {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+}
+.top .wrapper .header .header-inner .menu .list .item .link.download {
+  color: #fff;
+  padding: 16px 26px;
+  border: 1px solid #0F2336;
+  border-radius: 8px;
+  background: #0F2336;
+}
+.top .wrapper .top-info {
+  margin-top: 120px;
+}
+.top .wrapper .top-info .top-info-inner {
+  position: relative;
+}
+.top .wrapper .top-info .top-info-inner .text {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 75.9px;
+  letter-spacing: 1.11px;
+}
+.top .wrapper .top-info .top-info-inner .text h1 {
+  color: #0CC;
+}
+.top .wrapper .top-info .top-info-inner .text p {
+  color: #0F2336;
+  max-width: 557px;
+}
+.top .wrapper .top-info .top-info-inner .text p b {
+  color: #F3AF47;
+}
+.top .wrapper .top-info .top-info-inner .text .link {
+  display: flex;
+  margin-top: 50px;
+}
+.top .wrapper .top-info .top-info-inner .text .link a {
+  color: #0F2336;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  display: flex;
+  align-items: center;
+  padding: 19px 35px 19px 21px;
+  border: 1px solid #0CC;
+  border-radius: 14px;
+  background: #0CC;
+  box-shadow: 0px 3px 18px 0px rgba(0, 201, 201, 0.55);
+}
+.top .wrapper .top-info .top-info-inner .text .link a img {
+  margin-left: 15px;
+}
+.top .wrapper .top-info .top-info-inner .img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.top .wrapper .top-info .top-info-inner .img .img-inner {
+  position: relative;
+  top: -23px;
+}
+.top .wrapper .top-info .top-info-inner .img .img-inner img.bg {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.top .wrapper .top-info .top-info-inner .img .img-inner img.overlay {
+  position: relative;
+  top: 27px;
+  left: -150px;
+}/*# sourceMappingURL=common.css.map */
